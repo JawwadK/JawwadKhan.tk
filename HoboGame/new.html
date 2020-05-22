@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- UIkit CSS --> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.3.0/dist/css/uikit.min.css" />
+
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.0/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.0/dist/js/uikit-icons.min.js"></script>
+    <!--Stylesheets and other refs-->
+    <link rel="stylesheet" href="stylesheet.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
+
+    <title>Jawwad Khan</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <script async src="scriptsheet.js"></script>
+    <script src="script.js"></script>
+    <!-- Place this tag in your head or just before your close body tag. -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+</head>
+
+    
+    <body class="uk-light">
+        <div id = "home"></div>
+        <!--Sticky Nav Bar Code-->
+        <div class="uk-light"
+            uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; bottom: #transparent-sticky-navbar">
+            <nav class="uk-navbar-container" uk-navbar style="position: relative;z-index: 980;" id="navbar">
+                <div class="uk-navbar-center">
+                    <ul class="uk-navbar-nav" uk-scrollspy-nav="closest: li; scroll: true">
+                        <!--Scroll spy allows for smooth scrolling and awareness of links-->
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                    </ul>
+
+                </div>
+            </nav>
+        </div>
+        <div class="titlebox">
+            <img class = "profpic" src="jawwad-profile.jpg" alt="Picture of me">
+            <h1>Jawwad Khan</h1>
+        <!-- Typewrite JS-->
+        <div id="typed-strings" style="font-size: 40px; color:white;">
+            <p>Computer Science Student</p>
+            <p>Software Developer</p>
+            <p>This whole website is just me saying I'm good at computers.</p>
+            <p>Looking for summer opportunities</p>
+        </div>
+        <span id="typed" style="font-size: 40px; color:white;"></span>
+        <!-- Typewrite JS-->
+      <br>
+        <a class="github-button" href="https://github.com/JawwadK" data-color-scheme="no-preference: light; light: light; dark: dark;" data-size="large" aria-label="Follow @JawwadK on GitHub">Follow @JawwadK</a>
+        <a target="_blank" href="https://www.linkedin.com/in/jawwadkhan77/">
+        <br>
+        <img class="popuppy" style="width: 170px; height: 33px;" title="Connect" src="https://d33wubrfki0l68.cloudfront.net/c856547b7a1d98a05133ebe40762ee547712493d/0e091/assets/img/linkedin-connect.png" alt="Connect">
+    </a>
+    </div>
+
+    <div class="aboutme">
+        <h3><span id="about"></span>About Me</h3>
+        <p>
+            I'm a second year computer science student studying at Ryerson University. My key areas of interest
+            are software developement and web development. Currently looking for a summer internship.
+        </p>
+        <h3>Resume</h3>
+        <a href="Resume_Jawwad_Khan.pdf" uk-icon="icon: file-pdf; ratio: 5.5" class="popuppy"></a>
+    </div>
+
+    <div class="projects">
+        <h3><span id="projects"></span>Projects</h3>
+        <p>Here are some of the things I have worked on:</p>
+            <div id="repo-box"> </div>
+
+    </div>
+
+    <div class="contact">
+        <div id="footer">
+        <a href="https://github.com/JawwadK" uk-icon="icon: github; ratio: 2.5" class="popuppy"></a>
+        <a href="https://www.linkedin.com/in/jawwadkhan77" uk-icon="icon: linkedin; ratio: 2.5" class="popuppy"></a>
+        <a href="mailto:jawwad1809@gmail.com" uk-icon="icon: mail; ratio: 2.5" class="popuppy"></a>
+        <p>Copyright © 2020 Jawwad Khan </p>
+    </div>
+    </div>
+</body>
+
+</html>
